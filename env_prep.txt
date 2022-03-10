@@ -1,0 +1,40 @@
+
+
+#########################
+# virtual env
+conda env list 
+conda create -n your_env_name python=x.x
+conda activate your_env_name
+conda remove -n your_env_name --all
+
+conda env create -f environment.yaml
+
+https://github.com/civisanalytics/datascience-python/blob/master/environment.yml
+
+#########################
+# libs
+pip install jupyter_contrib_nbextensions
+
+conda install pandas-profiling
+pip install pandas-profiling
+
+pip install lightgbm
+conda install lightgbm
+conda install -c conda-forge lightgbm
+
+#########################
+# transformation
+https://mp.weixin.qq.com/s/AwjEfC2wLhUF9Ecgt0kocw
+
+# merge
+https://towardsdatascience.com/merge-data-frames-in-python-r-725c0f874147
+
+# outlier
+https://towardsdatascience.com/detecting-and-treating-outliers-in-python-part-3-dcb54abaf7b0
+
+# extratree
+https://jagan-singhh.medium.com/extra-extremely-randomized-trees-5ce9026bd07f
+
+# lightgbm
+https://neptune.ai/blog/lightgbm-parameters-guide
+https://towardsdatascience.com/kagglers-guide-to-lightgbm-hyperparameter-tuning-with-optuna-in-2021-ed048d9838b5
